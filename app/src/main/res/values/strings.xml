@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="client_id">842024878028-l4li4494godjc01jcuqltp4gft5s4n2j.apps.googleusercontent.com</string>
+
+    <string name="agree_to_our_privacy_policy">By creating this account, you agree to our Privacy Policy and Cookie Policy.</string>
+    <string name="already_account">Already have an account?</string>
+    <string name="app_name">Login Signup</string>
+    <string name="button_login_google_text">Continue with Google</string>
+    <string name="button_login_text">Continue</string>
+    <string name="create_account">Create Account</string>
+    <string name="edit_text_confirm_password_hint">Confirm Password</string>
+    <string name="edit_text_email_hint">Email</string>
+    <string name="edit_text_organisation_hint">Institution / Organisation</string>
+    <string name="edit_text_password_hint">Password</string>
+    <string name="enter_your_email">Enter your username or email</string>
+    <string name="enter_your_username_or_email">Username or email<font color="#EF5350">*</font></string>
+    <string name="forget_password_dec">Don\'t worry! Please enter your email address linked with your account</string>
+    <string name="forgot_password"><u>Forgot Password?</u></string>
+    <string name="forgot_passwords">Forgot Password?</string>
+    <string name="i_have_read_and_accept_the">I have read and accept the</string>
+    <string name="login_signUp">Login or Sign up</string>
+    <string name="no_account_text">"Don\'t have an account?"</string>
+    <string name="orLoginWith">Or, login with</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="privacy_text"><u>Privacy Policy and Cookie Policy.</u></string>
+    <string name="remember_password">Remember Password?</string>
+    <string name="send_code">Send Code</string>
+    <string name="sign_in">Login</string>
+    <string name="sign_in_to_continue">Please log in to continue and get the best from our app</string>
+    <string name="sign_up">Sign up</string>
+    <string name="sign_up_now">Sign up</string>
+    <string name="sign_up_to_get_started">Please Sign up to continue and get the best from our app</string>
+    <string name="web_client_id">984702694904-9cu9eaml8u0f41orb33pc1il0knue6ou.apps.googleusercontent.com"</string>
+    <string name="welcome">Welcome</string>
+    <string name="logged_in_successfully">LOGGED IN SUCCESSFULLY...:\\</string>
+    <string name="logout">Logout</string>
+    <string name="successfully_login">Successfully Login</string>
+    <string name="click_to_log_out">Click to log out</string>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <string name="foddie_hut">Foddie Hut</string>
+    <string name="developed_by_rudera">Developed by Rudera</string>
+    <string name="rudera">Rudera</string>
+    <string name="developed_by">Developed By</string>
+    <string name="next">NEXT</string>
+    <string name="login_to_your_account">Login To Your Account</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="google">Google</string>
+    <string name="facebook">Facebook</string>
+    <string name="login">Login</string>
+    <string name="don_t_have_account">Don\'t Have Account?</string>
+    <string name="sign_up_here">Sign Up Here</string>
+    <string name="or_nsign_up_with">or\nSign Up With</string>
+    <string name="already_have_an_account">Already Have An Account?</string>
+
+    <string name="choose_location">Choose Location</string>
+    <string name="foddie">Foddie</string>
+    <string name="cart">Cart</string>
+    <string name="search">Search</string>
+    <string name="history">History</string>
+    <string name="profile">Profile</string>
+    <string name="chandigarh">Chandigarh</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="explore_your_favourite_food">Explore Your Favourite Food</string>
+    <string name="view_menu">View Menu</string>
+    <string name="add">ADD</string>
+    <string name="proceed">Proceed</string>
+    <string name="veg_loaded_pizza">Veg Loaded Pizza</string>
+    <string name="_1">1</string>
+    <string name="menu">Menu</string>
+    <string name="what_do_you_want_to_order">What do you want to order?</string>
+    <string name="recent_buy">Recent Buy</string>
+    <string name="buy_again">Buy Again</string>
+    <string name="address">Address</string>
+    <string name="name">Name</string>
+    <string name="phone">Phone</string>
+    <string name="save_information">Save Information</string>
+    <string name="notification">Notification</string>
+    <string name="edit">Edit</string>
+    <string name="payment_method">Payment Method</string>
+    <string name="total_amount">Total Amount</string>
+    <string name="place_my_order">Place My Order</string>
+    <string name="congrats_nyour_order_placed">Congrats\nYour Order Placed</string>
+    <string name="go_home">Go Home</string>
+    <string name="food_name">Food Name</string>
+    <string name="short_description">Short description</string>
+    <string name="food_is_one_of_the_basic_necessities_of_life_food_contains_nutrients_substances_essential_for_the_growth_repair_and_maintenance_of_body_tissues_and_for_the_regulation_of_vital_processes_nutrients_provide_the_energy_our_bodies_need_to_function_the_energy_in_food_is_measured_in_units_called_calories">Food is one of the basic necessities of life. Food contains nutrients—substances essential for the growth, repair, and maintenance of body tissues and for the regulation of vital processes. Nutrients provide the energy our bodies need to function. The energy in food is measured in units called calories.</string>
+    <string name="ingredients">Ingredients</string>
+    <string name="_1nd_item_n2nd_item_n3rd_item">1nd item\n2nd item\n3rd item</string>
+    <string name="add_to_cart">Add To Cart</string>
+    <string name="previously_buy">Previously Buy</string>
+    <string name="_250">250</string>
+    <string name="admin_dashboard">Admin Dashboard</string>
+    <string name="login_to_your_admin_dashboard">Login To Your Admin Dashboard</string>
+    <string name="sign_up_here_for_your_nadmin_dashboard">Sign Up Here For Your\nAdmin Dashboard</string>
+    <string name="name_of_owner">Name Of Owner</string>
+    <string name="name_of_restaurent">Name Of Restaurent</string>
+    <string name="email_or_phone_number">Email Or Phone Number</string>
+    <string name="sign_up_here_for_your_admin_dashboard">Sign Up Here For Your Admin Dashboard</string>
+    <string name="choose_your_location">Choose Your Location</string>
+    <string name="pending_order">Pending Order</string>
+    <string name="_30">30</string>
+    <string name="completed_order">Completed Order</string>
+    <string name="_10">10</string>
+    <string name="whole_time_earning">Whole Time Earning</string>
+    <string name="all_pending_order">All Pending Order</string>
+    <string name="log_out">Log Out</string>
+    <string name="add_menu">Add Menu</string>
+    <string name="all_item_menu">All Item Menu</string>
+    <string name="profile_">Profile</string>
+    <string name="create_new_user">Create New User</string>
+    <string name="order_dispatch">Order Dispatch</string>
+    <string name="add_item">Add Item</string>
+    <string name="enter_food_name">Enter Food Name</string>
+    <string name="enter_food_price">Enter Food Price</string>
+    <string name="select_food_image">Select Food Image</string>
+    <string name="all_item">All Item</string>
+    <string name="out_for_delivery">Out For Delivery</string>
+    <string name="customer_name">Customer Name</string>
+    <string name="payment">Payment</string>
+    <string name="not_received">Not Received</string>
+    <string name="delivered">Delivered</string>
+    <string name="admin_profile">Admin Profile</string>
+    <string name="edit_your_profile">Edit Your Profile</string>
+    <string name="create_new_user_admin">Create New User Admin</string>
+    <string name="or_continue_with">or\nContinue With</string>
+    <string name="pending_orders">Pending Orders</string>
+    <string name="name_customer">Name Customer</string>
+    <string name="quantity">Quantity :</string>
+    <string name="accept">Accept</string>
+    <string name="DEFAULT_SIGN_IN">DEFAULT_SIGN_IN</string>
+    <string name="default_web_client_id">623390172869-ra50fm2jtiosd6oephvicrmtigaepjq5.apps.googleusercontent.com</string>
+    <string name="ingredient">Ingredient</string>
+    <string name="add_here_description">Add Here Description</string>
+    <string name="add_here_ingredient">Add Here Ingredient</string>
+    <string name="order_details">Order Details</string>
+    <string name="name_">Name :</string>
+    <string name="rudera_pratap_singh">Rudera Pratap Singh</string>
+    <string name="address_">Address :</string>
+    <string name="dhamrola">Dhamrola</string>
+    <string name="phone_">Phone :</string>
+    <string name="_91_9520771020">+91 9520771020</string>
+    <string name="_0">0</string>
+    <string name="total_amount_">Total Amount :</string>
+    <string name="r">₹</string>
+    <string name="resturant_name">Resturant Name</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="please_wait">Please Wait..</string>
+    <string name="edit_text_name_hint">Name</string>
+    <string name="save">Save</string>
+    <string name="web_client">623390172869-ra50fm2jtiosd6oephvicrmtigaepjq5.apps.googleusercontent.com</string>
+
+</resources>

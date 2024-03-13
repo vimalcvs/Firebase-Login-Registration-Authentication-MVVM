@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "623390172869",
+    "firebase_url": "https://yourrecipeapp-bd802-default-rtdb.firebaseio.com",
+    "project_id": "yourrecipeapp-bd802",
+    "storage_bucket": "yourrecipeapp-bd802.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:623390172869:android:afb58692c1ff8c3ddef2ac",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "623390172869-ra50fm2jtiosd6oephvicrmtigaepjq5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvXsgODDeRj5DQBH-z9inXdVZp6TlWa7o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "623390172869-a0unthvham8277560eljhhr0m0hkv93p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rootView"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#D5E8DA"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/welcomeView"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingStart="46dp"
+                android:paddingTop="20.0dip"
+                android:paddingEnd="46dp"
+                android:paddingBottom="24.0dip"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/geeksLogo"
+                    android:layout_width="49.0dip"
+                    android:layout_height="25.0dip"
+                    android:src="@drawable/ic_vk_new_logo" />
+
+                <TextView
+                    android:id="@+id/createAccount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:fontFamily="@font/metropolis_semibold"
+                    android:text="@string/create_account"
+                    android:textColor="@color/black"
+                    android:textSize="26sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/signupText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:alpha="0.52"
+                    android:fontFamily="@font/metropolis_regular"
+                    android:lineSpacingExtra="5.0dip"
+                    android:text="@string/sign_up_to_get_started"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/signupCardView"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/login_top_rounded_corner"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/welcomeView">
+
+                <TextView
+                    android:id="@+id/loginORSignup"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="28dp"
+                    android:fontFamily="@font/metropolis_semibold"
+                    android:text="@string/sign_up"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="@+id/guidelineEnd"
+                    app:layout_constraintStart_toStartOf="@+id/guideLineStart"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/nameTextInputLayout"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:hint="@string/edit_text_name_hint"
+                    android:textColorHint="#959CA2"
+                    app:boxCornerRadiusBottomEnd="12dp"
+                    app:boxCornerRadiusBottomStart="12dp"
+                    app:boxCornerRadiusTopEnd="12dp"
+                    app:boxCornerRadiusTopStart="12dp"
+                    app:boxStrokeColor="#D9D7D7"
+                    app:endIconMode="none"
+                    app:endIconTint="#888888"
+
+                    app:layout_constraintEnd_toEndOf="@+id/guidelineEnd"
+                    app:layout_constraintStart_toStartOf="@+id/guideLineStart"
+                    app:layout_constraintTop_toBottomOf="@+id/loginORSignup">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/editTextName"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/sanspro_regular"
+                        android:imeOptions="actionDone"
+                        android:inputType="textPersonName"
+                        android:tag="binding_4"
+                        android:textColor="#959CA2" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/emailTextInputLayout"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/edit_text_email_hint"
+                    android:textColorHint="#959CA2"
+                    android:layout_marginTop="18dp"
+                    app:boxCornerRadiusBottomEnd="12dp"
+                    app:boxCornerRadiusBottomStart="12dp"
+                    app:boxCornerRadiusTopEnd="12dp"
+                    app:boxCornerRadiusTopStart="12dp"
+                    app:boxStrokeColor="#D9D7D7"
+                    app:layout_constraintEnd_toEndOf="@+id/guidelineEnd"
+                    app:layout_constraintStart_toStartOf="@+id/guideLineStart"
+                    app:layout_constraintTop_toBottomOf="@+id/nameTextInputLayout">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/editTextEmail"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/sanspro_regular"
+                        android:imeOptions="actionNext"
+                        android:inputType="textEmailAddress"
+                        android:tag="binding_1"
+                        android:textColor="#959CA2" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/instituteTextInputLayout"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="18dp"
+                    android:hint="@string/edit_text_organisation_hint"
+                    android:textColorHint="#959CA2"
+                    app:boxCornerRadiusBottomEnd="12dp"
+                    app:boxCornerRadiusBottomStart="12dp"
+                    app:boxCornerRadiusTopEnd="12dp"
+                    app:boxCornerRadiusTopStart="12dp"
+                    app:boxStrokeColor="#D9D7D7"
+                    app:endIconMode="none"
+                    app:endIconTint="#888888"
+                    app:layout_constraintEnd_toEndOf="@+id/guidelineEnd"
+                    app:layout_constraintStart_toStartOf="@+id/guideLineStart"
+                    app:layout_constraintTop_toBottomOf="@+id/emailTextInputLayout">
+
+                    <androidx.appcompat.widget.AppCompatAutoCompleteTextView
+                        android:id="@+id/editTextInstitute"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@null"
+                        android:fontFamily="@font/sanspro_regular"
+                        android:imeOptions="actionNext"
+                        android:tag="binding_2"
+                        android:textColor="#959CA2" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/passwordTextInputLayout"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="18dp"
+                    android:hint="@string/edit_text_password_hint"
+                    android:textColorHint="#959CA2"
+                    app:boxCornerRadiusBottomEnd="12dp"
+                    app:boxCornerRadiusBottomStart="12dp"
+                    app:boxCornerRadiusTopEnd="12dp"
+                    app:boxCornerRadiusTopStart="12dp"
+                    app:boxStrokeColor="#D9D7D7"
+                    app:endIconDrawable="@drawable/custom_password_eye"
+                    app:endIconMode="password_toggle"
+                    app:endIconTint="#888888"
+                    app:layout_constraintEnd_toEndOf="@+id/guidelineEnd"
+                    app:layout_constraintStart_toStartOf="@+id/guideLineStart"
+                    app:layout_constraintTop_toBottomOf="@+id/instituteTextInputLayout">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/editTextPassword"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/sanspro_regular"
+                        android:imeOptions="actionNext"
+                        android:inputType="textPassword"
+                        android:tag="binding_3"
+                        android:textColor="#959CA2" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+
+                <LinearLayout
+                    android:id="@+id/linearLayout"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="18dp"
+                    android:orientation="horizontal"
+                    app:layout_constraintEnd_toEndOf="@+id/guidelineEnd"
+                    app:layout_constraintStart_toStartOf="@+id/guideLineStart"
+                    app:layout_constraintTop_toBottomOf="@+id/passwordTextInputLayout">
+
+                    <androidx.appcompat.widget.AppCompatCheckBox
+                        android:id="@+id/policyCheckBox"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/sanspro_regular"
+                        android:tag="binding_5"
+                        android:layout_marginEnd="5dp"
+                        android:text="@string/i_have_read_and_accept_the"
+                        android:textColor="#888888"
+                        android:textSize="14.0sp"
+                        app:buttonTint="@color/color_text_primary" />
+
+                    <TextView
+                        android:id="@+id/privacyPolicyLink"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/sanspro_regular"
+                        android:tag="binding_6"
+                        android:text="@string/privacy_policy"
+                        android:textColor="@color/color_text_primary"
+                        android:textSize="14.0sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/buttonSignup"
+                    style="@style/LoginSignupButton"
+                    android:layout_marginTop="22dp"
+                    android:fontFamily="@font/sanspro_semibold"
+                    android:tag="binding_7"
+                    android:text="@string/sign_up"
+                    android:textSize="16sp"
+                    app:layout_constraintEnd_toEndOf="@+id/guidelineEnd"
+                    app:layout_constraintStart_toStartOf="@+id/guideLineStart"
+                    app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+                <LinearLayout
+                    android:id="@+id/signInLayout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="80dp"
+                    android:layout_marginBottom="18dp"
+                    android:orientation="horizontal"
+                    app:layout_constraintBottom_toTopOf="@+id/privacyCookiePolicyText"
+                    app:layout_constraintEnd_toEndOf="@+id/guidelineEnd"
+                    app:layout_constraintStart_toStartOf="@+id/guideLineStart"
+                    app:layout_constraintTop_toBottomOf="@+id/buttonSignup">
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="8dp"
+                        android:fontFamily="@font/sanspro_regular"
+                        android:text="@string/already_account"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/signInText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/sanspro_regular"
+                        android:tag="binding_8"
+                        android:text="@string/sign_in"
+                        android:textColor="@color/color_text_primary"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/privacyCookiePolicyText"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/sanspro_regular"
+                    android:text="@string/agree_to_our_privacy_policy"
+                    android:textAlignment="center"
+                    android:textColor="#888888"
+                    android:textSize="12sp"
+                    app:layout_constraintBottom_toTopOf="@+id/guideLineBottom"
+                    app:layout_constraintEnd_toEndOf="@+id/guidelineEnd"
+                    app:layout_constraintStart_toStartOf="@+id/guideLineStart"
+                    app:layout_constraintTop_toBottomOf="@+id/signInLayout"
+                    app:layout_constraintVertical_bias="1.0" />
+
+                <androidx.constraintlayout.widget.Guideline
+                    android:id="@+id/guidelineEnd"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    app:layout_constraintGuide_end="46.0dip" />
+
+                <androidx.constraintlayout.widget.Guideline
+                    android:id="@+id/guideLineStart"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    app:layout_constraintGuide_begin="46.0dip" />
+
+                <androidx.constraintlayout.widget.Guideline
+                    android:id="@+id/guideLineBottom"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    app:layout_constraintGuide_end="26.0dip" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+    <include
+        android:id="@+id/loadingLayout"
+        layout="@layout/utils_loading_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:visibility="gone" />
+
+</FrameLayout>
