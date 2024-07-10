@@ -1,4 +1,4 @@
-# Firebase Login and Registration Authentication UI
+# Firebase Login and Registration Authentication MVVM 
 
 This project provides a simple and customizable user interface for implementing Firebase authentication, including user registration and login functionalities. It utilizes Firebase Authentication services to securely authenticate users in your application.
 
