@@ -5,13 +5,12 @@ plugins {
 }
 
 android {
-    namespace = "com.example.myapplication"
-    compileSdk = 34
-
+    namespace = "com.vimal.margh"
+    compileSdk = 35
     defaultConfig {
-        applicationId = "com.example.myapplication"
-        minSdk = 21
-        targetSdk = 34
+        applicationId = "com.vimal.margh"
+        minSdk = 24
+        targetSdk = 35
         versionCode = 1
         versionName = "1.0"
 
@@ -40,20 +39,16 @@ android {
 }
 
 dependencies {
-
-    implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
-    implementation(libs.material)
     implementation(libs.androidx.constraintlayout)
+    implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.navigation.fragment.ktx)
     implementation(libs.androidx.navigation.ui.ktx)
-
     implementation(libs.firebase.auth)
-    implementation(libs.google.firebase.database)
     implementation(libs.firebase.storage)
-    implementation(libs.play.services.auth)
-
     implementation(libs.glide)
-
+    implementation(libs.google.firebase.database)
+    implementation(libs.material)
+    implementation(libs.play.services.auth)
 
 }

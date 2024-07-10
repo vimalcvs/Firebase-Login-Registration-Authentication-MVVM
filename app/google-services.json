@@ -1,34 +1,70 @@
 {
   "project_info": {
-    "project_number": "623390172869",
-    "firebase_url": "https://yourrecipeapp-bd802-default-rtdb.firebaseio.com",
-    "project_id": "yourrecipeapp-bd802",
-    "storage_bucket": "yourrecipeapp-bd802.appspot.com"
+    "project_number": "365694026676",
+    "project_id": "fast-english-speaking-1fe4d",
+    "storage_bucket": "fast-english-speaking-1fe4d.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:623390172869:android:afb58692c1ff8c3ddef2ac",
+        "mobilesdk_app_id": "1:365694026676:android:99002eddbd988b496e28e1",
         "android_client_info": {
-          "package_name": "com.example.myapplication"
+          "package_name": "com.vimal.margh"
         }
       },
       "oauth_client": [
         {
-          "client_id": "623390172869-ra50fm2jtiosd6oephvicrmtigaepjq5.apps.googleusercontent.com",
+          "client_id": "365694026676-0ptcrkniuf7vasbgnstvr9r9hfhaq8ch.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vimal.margh",
+            "certificate_hash": "3354096af13414fc3c43c5c3f1c7c36f3300b4b6"
+          }
+        },
+        {
+          "client_id": "365694026676-ktn41t8rdl6bht6lpmp3j3iomrho6qfm.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBvXsgODDeRj5DQBH-z9inXdVZp6TlWa7o"
+          "current_key": "AIzaSyAogNESy-bwBf1Tfh5AMyS0Zl5FMNn5v6o"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "623390172869-a0unthvham8277560eljhhr0m0hkv93p.apps.googleusercontent.com",
+              "client_id": "365694026676-dhknjcng07pne1ng2ga9m8kfghc7n77f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:365694026676:android:0facd2fd6d3cfad56e28e1",
+        "android_client_info": {
+          "package_name": "com.vimalcvs.testebud"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "365694026676-ktn41t8rdl6bht6lpmp3j3iomrho6qfm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAogNESy-bwBf1Tfh5AMyS0Zl5FMNn5v6o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "365694026676-dhknjcng07pne1ng2ga9m8kfghc7n77f.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
